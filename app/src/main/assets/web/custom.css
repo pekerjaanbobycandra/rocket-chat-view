@@ -1,0 +1,11 @@
+/* Menyembunyikan scrollbar bawaan Android agar layar chat lebih lega */
+::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    background: transparent !important;
+}
+
+body {
+    -ms-overflow-style: none !important;  /* Untuk browser lawas */
+    scrollbar-width: none !important;  /* Standar modern */
+}
